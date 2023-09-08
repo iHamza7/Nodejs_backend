@@ -16,7 +16,7 @@ fs.readFile("./txt/start.txt", "utf-8", (err, data1) => {
     fs.readFile("./txt/output.txt", "utf-8", (err, data3) => {
       console.log(data3);
       fs.writeFile("./txt/input.txt", `${data2}\n${data3}`, "utf-8", (err) => {
-        console.log("your file has written");
+        console.log("your file has tten");
       });
     });
   });
